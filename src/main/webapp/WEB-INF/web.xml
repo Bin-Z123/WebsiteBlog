@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <servlet>
+    <description></description>
+    <display-name>TrangTinTuc</display-name>
+    <servlet-name>TrangTinTuc</servlet-name>
+    <servlet-class>controller.Servlet.TrangTinTuc</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TrangTinTuc</servlet-name>
+    <url-pattern>/TrangTinTuc</url-pattern>
+  </servlet-mapping>
+  <display-name>ASSIGNMENT_JAVA3</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>TrangAdminServlet</display-name>
+    <servlet-name>TrangAdminServlet</servlet-name>
+    <servlet-class>controller.Servlet.TrangAdminServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TrangAdminServlet</servlet-name>
+    <url-pattern>/TrangAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>controller.Servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
